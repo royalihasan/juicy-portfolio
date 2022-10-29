@@ -5,7 +5,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className=" sticky top-0   shadow-gray-700 shadow-sm ">
+    <header className=" sticky top-0   shadow-gray-700 shadow-sm z-50 ">
       <div
         className="flex  items-start justify-evenly max-w-7xl z-20 xl:items-center p-5
         
@@ -88,8 +88,7 @@ const Header = (props: Props) => {
             className="cursor-pointer hover:scale-150 "
             network="email"
             bgColor="transparent"
-            fgColor="gray" 
-            
+            fgColor="gray"
           />
           <p className=" uppercase hidden md:inline-flex sm:inline-flex text-sm text-gray-400 ">
             Get In Touch
