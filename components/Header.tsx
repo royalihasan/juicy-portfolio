@@ -52,7 +52,7 @@ const Header = (props: Props) => {
             url="https://linkedin.com/royalihasan_"
             bgColor="transparent"
             fgColor="gray"
-            className="hover:scale-150 "
+            className="hover:scale-150 selection:bg-transparent"
           />
           <SocialIcon
             url="https://linke.com/royalihasan_"
